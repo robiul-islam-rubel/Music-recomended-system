@@ -42,3 +42,10 @@ auth_manager = SpotifyClientCredentials(client_id=spotify_details['Client_id'],
                                         client_secret=spotify_details['client_secret'])
 sp = spotipy.client.Spotify(auth_manager=auth_manager)
 ```
+# Contributions
+
+Contributions are welcome! Fork the repository, enhance the project, and create pull requests to contribute to this educational endeavor.
+
+# Disclaimer
+
+This is my internship project, I tried my best to do the work. 
