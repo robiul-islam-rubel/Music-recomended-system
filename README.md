@@ -32,11 +32,11 @@ The first step will be to obtain keys to use. We'll need a Spotify for developer
 Now that we have an app, we can get a client ID and a client secret for this app. Both of these will be required to authenticate with the Spotify web API for our application, and can be thought of as a kind of username and password for the application. It is best practice not to share either of these, but especially don’t share the client secret key. To prevent this, we can keep it in a separate file, which, if you’re using Git for version control, should be Gitignored.
 
 Spotify credentials should be stored the in the a Spotify.yaml file with the first line as the credential id and the second line as the secret key:
-
+```
 Client_id : ************************
 client_secret : ************************
 To access this credentials, please use the following code:
-
+```
 stream= open("Spotify/Spotify.yaml")
 spotify_details = yaml.safe_load(stream)
 auth_manager = SpotifyClientCredentials(client_id=spotify_details['Client_id'],
