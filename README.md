@@ -19,7 +19,7 @@ Encourages experimentation with different classification algorithms.
 
 # Getting Started
 
-Clone the repository: git clone https://github.com/robiul-islam-rubel/Internship_Iris-flower-classification.git
+Clone the repository: git clone https://github.com/robiul-islam-rubel/Music-recomended-system.git
 Explore Jupyter notebooks for data exploration, model building, and analysis.
 Customize model hyperparameters and try various classification techniques.
 Gain insights into feature importance for accurate species classification.
