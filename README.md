@@ -37,8 +37,8 @@ Client_id : ************************
 client_secret : ************************
 To access this credentials, please use the following code:
 ```
-stream= open("Spotify/Spotify.yaml")
-spotify_details = yaml.safe_load(stream)
+```
 auth_manager = SpotifyClientCredentials(client_id=spotify_details['Client_id'],
                                         client_secret=spotify_details['client_secret'])
 sp = spotipy.client.Spotify(auth_manager=auth_manager)
+```
