@@ -1,12 +1,9 @@
 # Internship with CodeAlpha
 
-# Description
-
-Welcome to the Music recomended repository. In this project, we dive into the fascinating world of machine learning by working with the Music recomended system. We used spotify api for our recomended system.
 
 # Project Objective
 
-Imagine having a collection of Iris flower measurements, each categorized by its respective species. Our mission is clear: develop a robust machine learning model capable of learning from these measurements and accurately classifying Iris flowers into their correct species. This project showcases the power of supervised learning and classification in real-world applications.
+In this project we built a model than can recomend the songs based on user preferences
 
 # Description
 The goal of this project is to create a recommendation system that would allow users to discover music based on a given playlist or song that they already enjoy. This project begins with data collection and a self-growing dataset to ensure that the model will work well in the future and continues through model deployment.
